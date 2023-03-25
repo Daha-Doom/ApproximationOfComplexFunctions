@@ -264,6 +264,7 @@
             this.textBox5.Size = new System.Drawing.Size(100, 20);
             this.textBox5.TabIndex = 14;
             this.textBox5.Visible = false;
+            this.textBox5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
             // 
             // button4
             // 
@@ -313,6 +314,7 @@
             this.textBox4.Size = new System.Drawing.Size(100, 20);
             this.textBox4.TabIndex = 9;
             this.textBox4.Visible = false;
+            this.textBox4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
             // 
             // label3
             // 
@@ -332,6 +334,7 @@
             this.textBox3.Size = new System.Drawing.Size(100, 20);
             this.textBox3.TabIndex = 7;
             this.textBox3.Visible = false;
+            this.textBox3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
             // 
             // label2
             // 
@@ -349,6 +352,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 5;
+            this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
             // 
             // button2
             // 
@@ -486,6 +490,7 @@
             this.textBox6.Size = new System.Drawing.Size(100, 20);
             this.textBox6.TabIndex = 16;
             this.textBox6.Visible = false;
+            this.textBox6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
             // 
             // label11
             // 
@@ -505,6 +510,7 @@
             this.textBox7.Size = new System.Drawing.Size(100, 20);
             this.textBox7.TabIndex = 14;
             this.textBox7.Visible = false;
+            this.textBox7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
             // 
             // label8
             // 
@@ -780,6 +786,7 @@
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(65, 20);
             this.textBox8.TabIndex = 26;
+            this.textBox8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
             // 
             // textBox9
             // 
@@ -787,6 +794,7 @@
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(65, 20);
             this.textBox9.TabIndex = 25;
+            this.textBox9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
             // 
             // button1
             // 
@@ -874,6 +882,7 @@
             this.textBox13.Size = new System.Drawing.Size(109, 20);
             this.textBox13.TabIndex = 72;
             this.textBox13.Visible = false;
+            this.textBox13.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
             // 
             // label26
             // 
@@ -893,6 +902,7 @@
             this.textBox12.Size = new System.Drawing.Size(109, 20);
             this.textBox12.TabIndex = 70;
             this.textBox12.Visible = false;
+            this.textBox12.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
             // 
             // button22
             // 
@@ -982,6 +992,7 @@
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(143, 20);
             this.textBox11.TabIndex = 59;
+            this.textBox11.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
             // 
             // button13
             // 
@@ -1102,6 +1113,7 @@
             this.textBox24.Size = new System.Drawing.Size(59, 20);
             this.textBox24.TabIndex = 85;
             this.textBox24.Text = "29";
+            this.textBox24.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
             // 
             // textBox25
             // 
@@ -1110,6 +1122,7 @@
             this.textBox25.Size = new System.Drawing.Size(59, 20);
             this.textBox25.TabIndex = 84;
             this.textBox25.Text = "52";
+            this.textBox25.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
             // 
             // textBox26
             // 
@@ -1118,6 +1131,7 @@
             this.textBox26.Size = new System.Drawing.Size(59, 20);
             this.textBox26.TabIndex = 83;
             this.textBox26.Text = "74";
+            this.textBox26.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
             // 
             // label38
             // 
@@ -1217,6 +1231,7 @@
             this.textBox21.Size = new System.Drawing.Size(59, 20);
             this.textBox21.TabIndex = 72;
             this.textBox21.Text = "8";
+            this.textBox21.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
             // 
             // textBox22
             // 
@@ -1225,6 +1240,7 @@
             this.textBox22.Size = new System.Drawing.Size(59, 20);
             this.textBox22.TabIndex = 71;
             this.textBox22.Text = "3";
+            this.textBox22.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
             // 
             // textBox23
             // 
@@ -1233,6 +1249,7 @@
             this.textBox23.Size = new System.Drawing.Size(59, 20);
             this.textBox23.TabIndex = 70;
             this.textBox23.Text = "20";
+            this.textBox23.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
             // 
             // textBox15
             // 
@@ -1241,6 +1258,7 @@
             this.textBox15.Size = new System.Drawing.Size(59, 20);
             this.textBox15.TabIndex = 69;
             this.textBox15.Text = "20";
+            this.textBox15.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
             // 
             // textBox16
             // 
@@ -1249,6 +1267,7 @@
             this.textBox16.Size = new System.Drawing.Size(59, 20);
             this.textBox16.TabIndex = 68;
             this.textBox16.Text = "3";
+            this.textBox16.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
             // 
             // textBox17
             // 
@@ -1257,6 +1276,7 @@
             this.textBox17.Size = new System.Drawing.Size(59, 20);
             this.textBox17.TabIndex = 67;
             this.textBox17.Text = "1";
+            this.textBox17.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
             // 
             // textBox20
             // 
@@ -1265,6 +1285,7 @@
             this.textBox20.Size = new System.Drawing.Size(59, 20);
             this.textBox20.TabIndex = 66;
             this.textBox20.Text = "2";
+            this.textBox20.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
             // 
             // textBox19
             // 
@@ -1273,6 +1294,7 @@
             this.textBox19.Size = new System.Drawing.Size(59, 20);
             this.textBox19.TabIndex = 65;
             this.textBox19.Text = "20";
+            this.textBox19.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
             // 
             // textBox18
             // 
@@ -1281,6 +1303,7 @@
             this.textBox18.Size = new System.Drawing.Size(59, 20);
             this.textBox18.TabIndex = 64;
             this.textBox18.Text = "6";
+            this.textBox18.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
             // 
             // label27
             // 
@@ -1299,6 +1322,7 @@
             this.textBox14.Size = new System.Drawing.Size(143, 20);
             this.textBox14.TabIndex = 62;
             this.textBox14.Text = "0,01";
+            this.textBox14.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
             // 
             // button23
             // 

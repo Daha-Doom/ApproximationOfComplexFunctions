@@ -70,6 +70,26 @@ namespace ЛюбитьиЗащищать
             }
         }
 
+        //Ввод только цифр
+        private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char number = e.KeyChar;
+
+            if (!Char.IsDigit(number) && number != 8)
+                e.Handled = true;
+        }
+
+        //Ввод цифр и запятой
+        private void textBox3_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char number = e.KeyChar;
+
+            if(!Char.IsDigit(number) && number != 8 && number != 44)
+                e.Handled = true;
+        }
+
+
+
 
 
 
@@ -77,7 +97,7 @@ namespace ЛюбитьиЗащищать
         //ЛАГРАНЖ | ЛАГРАНЖ | ЛАГРАНЖ | ЛАГРАНЖ | ЛАГРАНЖ | ЛАГРАНЖ | ЛАГРАНЖ | ЛАГРАНЖ | ЛАГРАНЖ | ЛАГРАНЖ | ЛАГРАНЖ | ЛАГРАНЖ | ЛАГРАНЖ | ЛАГРАНЖ | ЛАГРАНЖ
         //Лаграндж Размерность Массива
 
-        double [,] lXY;
+        double[,] lXY;
         int ln, li;
 
 
@@ -358,11 +378,8 @@ namespace ЛюбитьиЗащищать
         //ЦЕЛОЧИСЛЕННОЕ ИНТЕГРИРОВАНИЕ | ЦЕЛОЧИСЛЕННОЕ ИНТЕГРИРОВАНИЕ | ЦЕЛОЧИСЛЕННОЕ ИНТЕГРИРОВАНИЕ | ЦЕЛОЧИСЛЕННОЕ ИНТЕГРИРОВАНИЕ | ЦЕЛОЧИСЛЕННОЕ ИНТЕГРИРОВАНИЕ
 
         double ciA, ciB, ciH;
-
         int ciN;
-
         double[] ciC;
-
         double[,] ciXY;
 
         //Ввод данных ЦИ
